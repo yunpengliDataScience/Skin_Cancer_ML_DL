@@ -4,3 +4,8 @@
 <img src="logo/logo.jpg"
      alt="Cancer Cell"
      style="float: left; margin-right: 10px;" />
+
+## Team Members: 
+.Yunpeng
+.AAA
+.BBB
