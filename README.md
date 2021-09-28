@@ -9,7 +9,7 @@
 
 - Demarcus Wirsing
 - Drishti Arora
-- Nigist Woldeeyesus (nwoldee1@umbc.edu)
-- Sai Kumar Kanuru (saikumk1@umbc.edu)
-- Yunpeng Li (yli4@umbc.edu)
+- Nigist Woldeeyesus
+- Sai Kumar Kanuru
+- Yunpeng Li
 
