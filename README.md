@@ -3,7 +3,7 @@
 
 <img src="logo/logo.jpg"
      alt="Cancer Cell"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 10px;" width="150"/>
 
 ## Team Members: 
 - First item
