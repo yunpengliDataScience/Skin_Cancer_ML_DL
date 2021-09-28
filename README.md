@@ -6,6 +6,6 @@
      style="float: left; margin-right: 10px;" />
 
 ## Team Members: 
-.Yunpeng
-.AAA
-.BBB
+- First item
+- Second item
+- Third item
