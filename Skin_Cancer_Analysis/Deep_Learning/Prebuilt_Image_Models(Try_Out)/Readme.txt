@@ -1,0 +1,1 @@
+This folder contains pre-built CNN image models for tryout.  

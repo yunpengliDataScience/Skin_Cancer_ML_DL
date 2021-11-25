@@ -1,0 +1,1 @@
+This folder stores all checkpoint files and model files.
