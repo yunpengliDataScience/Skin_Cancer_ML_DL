@@ -1,0 +1,1 @@
+This folder contains files for training hybrid models with oridinal encoded tabular columns.

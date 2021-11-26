@@ -1,0 +1,1 @@
+This folder contains EDA for deep learning and code for creating skin cancer image sub-folders.
