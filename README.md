@@ -11,3 +11,11 @@
 - Sai Kumar Kanuru
 - Yunpeng Li
 
+## Project Goals:
+
+- Train various machine learning models using tabular data to predict and evaluate the results of skin lesion classifications.
+- Use image processing techniques and construct various deep learning models on skin image data to evaluate the results of skin lesion classifications.
+- Use skin cancer image data to inference missing clinic tabular column values through deep learning on image data. 
+- Construct a deep leaning hybrid model that combines both image and tabular data to do skin lesion classifications.
+- Prove or disapprove combining clinic tabular data and skin cancer image data in deep learning can achieve better accuracy score.
+- Evaluate the accuracy and performance of various models in the end and find the best model for skin lesion classifications.
