@@ -59,6 +59,8 @@ TODO
 <p>Regardless of whether including or excluding certain clinic tabular columns, after training the 4 hybrid models, all results consistently show that models trained by image tabular combined data have higher validation accuracy scores than the scores of the  models only trained by tabular data or only trained by image data.  Such finding confirms our hypothesis that combining image data and clinic tabular data in deep learning for skin lesion classification can reach higher accuracy.  The results are illustrated in the following figures.  The green curve represents the validation accuracy score of models trained by image-tabular combined data in 100 epochs of training.  The orange curve represents the validation accuracy score of models trained by tabular only data in 100 epochs of training.  It is slightly slower than the green curve.  The lowest blue curve represents the validation accuracy score of models trained by image only data in 100 epochs of training.
 <br><img src="figures/3_curves.jpg" style="float: left; margin-right: 10px;"/>
   
-<ins>a</ins>
-<p>
-<br><img src="figures/a.jpg" style="float: left; margin-right: 10px;"/>
+<ins>Best Hybrid Models</ins>
+<p>We have applied upsampling to balance underrepresented skin lesion types in the training dataset and kept recording the best validation accuracy score of each hybrid model in each epoch iteration.  The state and parameters of the best performance model are persisted in a file so that models can be easily loaded instead of being retrieved by retraining.  The highest accuracy score is 0.846 of the hybrid model that utilizes DenseNet121.  The 2nd best score is 0.841 of the hybrid model that utilizes ResNet18.  Both scores are very close to each other, but due to the complexity of model architecture of DenseNet121, DenseNet121 takes longer time and high computing resources to be trained.  When the model state is saved to a file, loading a trained hybrid model utilizing DenseNet121 is not an issue.  The following table shows the best validation accuracy scores for each hybrid model.
+<br><img src="figures/best_models.jpg" style="float: left; margin-right: 10px;"/>
+<p>The following figures illustrate the confusion matrix of each hybrid model.
+<br><img src="figures/cms.jpg" style="float: left; margin-right: 10px;"/>
