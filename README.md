@@ -26,7 +26,7 @@ TODO
 
 ### Deep Learning
 
-<ins>Column Inferencing aaa</ins>
+<ins>Column Inferencing</ins>
 <p>The main purpose of column inference is to use deep learning models trained by image data to predict missing values in columns.  The main strategy is to treat a particular tabular column as a class label, and then train images in deep learning models to predict the value of that column.
 <br><img src="figures/column_inferencing.jpg" style="float: left; margin-right: 10px;"  />
 
