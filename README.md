@@ -21,6 +21,10 @@
 - Evaluate the accuracy and performance of various models in the end and find the best model for skin lesion classifications.
 
 ## Project Highlights
+
+### EDA
+TODO
+
 ### Machine Learning
 TODO
 
@@ -38,3 +42,7 @@ TODO
 <ins>Hybrid Model architecture</ins>
 <p>In order to train a customized deep learning model with the combined tabular and image data, we have constructed a hybrid model named ImageTabularHybridModel, which extends Pytorch’s nn.Module class.  The hybrid model can be configured and initialized by a user parameter to train image only data, tabular only data, or combined image and tabular data.  Another user parameter specifies what the underlying prebuilt CNN model that the hybrid model should utilize to train image data.  Currently, it supports the four best candidates: ResNet18, GoogleNet, DenseNet121, and MobileNet V2.  When the hybrid model is initialized to train combined image and tabular data, it pushes image data to go through the prebuilt CNN model specified by the user parameter, and the last layer of the original prebuilt CNN model is hijacked and extended to connect 3 fully connected layers with Relu activation.  The tabular data is pushed through another 3 fully connected layers with Relu activation.  Then the output data of the image layer is concatenated with the output data of the tabular layer, and such concatenated data is further pushed through additional 3 fully connected layers with Relu activation.  The last layer outputs 6 nodes that represent 6 types of skin lesions.
 <br><img src="figures/hybrid_model_architecture.jpg" style="float: left; margin-right: 10px;"/>
+
+<ins>One-Hot Encoding vs. Ordinal Encoding</ins>
+<p>The following table shows the best accuracy scores of hybrid models after 100 epochs of training on combined image data with One-Hot Encoded tabular data or Ordinal Encoded tabular data.  One-Hot Encoding has significantly better accuracy scores than the accuracy scores of Ordinal Encoding yielded by all the 4 hybrid models.
+<br><img src="figures/one-hot_vs_ordinal.jpg" style="float: left; margin-right: 10px;"/>
