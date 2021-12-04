@@ -55,9 +55,9 @@ TODO
 <p>The following table shows the best accuracy scores of hybrid models after 100 epochs of training on combined image data and tabular data without “biopsy” columns or combined image data and tabular data with “biopsy” column.  Although we suspect the “biopsied” column may introduce bias to skin lesion classifications, the results do not show the missing “biopsied” column has significant influence on our hybrid validation accuracy scores.  A possible explanation is that other clinic tabular columns could make up for the missing influence of “biopsied” column and still contribute significantly to the classifications during deep learning.
 <br><img src="figures/with_vs_without_biopsed.jpg" style="float: left; margin-right: 10px;"/>
   
-<ins>a</ins>
-<p>
-<br><img src="figures/a.jpg" style="float: left; margin-right: 10px;"/>
+<ins>Image Data Only vs. Tabular Data Only vs. Image Tabular Data Combined</ins>
+<p>Regardless of whether including or excluding certain clinic tabular columns, after training the 4 hybrid models, all results consistently show that models trained by image tabular combined data have higher validation accuracy scores than the scores of the  models only trained by tabular data or only trained by image data.  Such finding confirms our hypothesis that combining image data and clinic tabular data in deep learning for skin lesion classification can reach higher accuracy.  The results are illustrated in the following figures.  The green curve represents the validation accuracy score of models trained by image-tabular combined data in 100 epochs of training.  The orange curve represents the validation accuracy score of models trained by tabular only data in 100 epochs of training.  It is slightly slower than the green curve.  The lowest blue curve represents the validation accuracy score of models trained by image only data in 100 epochs of training.
+<br><img src="figures/3_curves.jpg" style="float: left; margin-right: 10px;"/>
   
 <ins>a</ins>
 <p>
