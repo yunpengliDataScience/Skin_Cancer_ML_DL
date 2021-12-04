@@ -22,8 +22,13 @@
 
 ## Project Highlights
 ### Machine Learning
+TODO
 
 ### Deep Learning
+
+<ins>Column Inferencing</ins>
+<p>The main purpose of column inference is to use deep learning models trained by image data to predict missing values in columns.  The main strategy is to treat a particular tabular column as a class label, and then train images in deep learning models to predict the value of that column.
+<br><img src="figures/column_inferencing.jpg" style="float: left; margin-right: 10px;"  />
 
 <ins>Hybrid Model architecture</ins>
 <p>It connects one of the prebuilt CNN models (ResNet18, GoogleNet, MobileNet V2, DenseNet121) for processing image data and fully connected layers with Relu activation for processing tabular data.
