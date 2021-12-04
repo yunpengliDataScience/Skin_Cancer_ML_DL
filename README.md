@@ -28,6 +28,7 @@ TODO
 
 <ins>Column Inferencing</ins>
 <p>The main purpose of column inference is to use deep learning models trained by image data to predict missing values in columns.  The main strategy is to treat a particular tabular column as a class label, and then train images in deep learning models to predict the value of that column.
+<p>Both GoogleNet and DenseNet121 have relatively better overall performance on inferencing column values of our tabular data.  All results show the column biopsy has the highest inferencing scores, so it indicates column biopsy has strong correlation with skin lesion types.  A possible explanation is that a doctor may tend to order a skin biopsy when the patient is suspected to have skin cancer after viewing the patient’s skin image.
 <br><img src="figures/column_inferencing.jpg" style="float: left; margin-right: 10px;"  />
 
 <ins>Hybrid Model architecture</ins>
