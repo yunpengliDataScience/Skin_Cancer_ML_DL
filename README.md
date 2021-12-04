@@ -19,3 +19,8 @@
 - Construct a deep leaning hybrid model that combines both image and tabular data to do skin lesion classifications.
 - Prove or disapprove combining clinic tabular data and skin lesion image data in deep learning can achieve better accuracy score.
 - Evaluate the accuracy and performance of various models in the end and find the best model for skin lesion classifications.
+
+## Project Highlights
+### Machine Learning
+
+### Deep Learning
