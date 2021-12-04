@@ -46,3 +46,19 @@ TODO
 <ins>One-Hot Encoding vs. Ordinal Encoding</ins>
 <p>The following table shows the best accuracy scores of hybrid models after 100 epochs of training on combined image data with One-Hot Encoded tabular data or Ordinal Encoded tabular data.  One-Hot Encoding has significantly better accuracy scores than the accuracy scores of Ordinal Encoding yielded by all the 4 hybrid models.
 <br><img src="figures/one-hot_vs_ordinal.jpg" style="float: left; margin-right: 10px;"/>
+  
+<ins>Full Tabular Columns vs. Reduced Tabular Columns</ins>
+<p>The following table shows the best accuracy scores of hybrid models after 100 epochs of training on combined image data and tabular data with One-Hot Encoded reduced columns or combined image data and tabular data with One-Hot Encoded full columns.  Reducing tabular columns seems not to have significant performance improvement.  It may make sense because deep learning can figure out what features are important and ignore what are less important after a sufficiently big number of epochs of training.  Or all the original clinic columns may all have some contributions to the classification.
+<br><img src="figures/full_vs_reduced.jpg" style="float: left; margin-right: 10px;"/>
+  
+<ins>a</ins>
+<p>
+<br><img src="figures/a.jpg" style="float: left; margin-right: 10px;"/>
+  
+<ins>a</ins>
+<p>
+<br><img src="figures/a.jpg" style="float: left; margin-right: 10px;"/>
+  
+<ins>a</ins>
+<p>
+<br><img src="figures/a.jpg" style="float: left; margin-right: 10px;"/>
