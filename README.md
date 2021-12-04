@@ -25,6 +25,6 @@
 
 ### Deep Learning
 
-Hybrid Model architecture
+<ins>Hybrid Model architecture</ins>
 <p>It connects one of the prebuilt CNN models (ResNet18, GoogleNet, MobileNet V2, DenseNet121) for processing image data and fully connected layers with Relu activation for processing tabular data.
 <br><img src="figures/hybrid_model_architecture.jpg" style="float: left; margin-right: 10px;"  />
