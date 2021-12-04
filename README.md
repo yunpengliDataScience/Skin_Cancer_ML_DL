@@ -19,3 +19,12 @@
 - Construct a deep leaning hybrid model that combines both image and tabular data to do skin lesion classifications.
 - Prove or disapprove combining clinic tabular data and skin lesion image data in deep learning can achieve better accuracy score.
 - Evaluate the accuracy and performance of various models in the end and find the best model for skin lesion classifications.
+
+## Project Highlights
+### Machine Learning
+
+### Deep Learning
+
+Hybrid Model architecture
+<br>It connects one of the prebuilt CNN models (ResNet18, GoogleNet, MobileNet V2, DenseNet121) for processing image data and fully connected layers with Relu activation for processing tabular data.
+<br><img src="figures/hybrid_model_architecture.jpg" style="float: left; margin-right: 10px;"  />
