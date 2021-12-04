@@ -1,7 +1,7 @@
 # UMBC Data 606 Project
 # Skin Cancer Analysis and Classification by Machine Learning and Deep Learning
 
-<img src="logo/logo.jpg" alt="Cancer Cell" style="float: left; margin-right: 10px; width:100%; height: 300px; "  />
+<img src="figures/logo.jpg" alt="Cancer Cell" style="float: left; margin-right: 10px; width:100%; height: 300px; "  />
 
 ## Team Members: 
 
