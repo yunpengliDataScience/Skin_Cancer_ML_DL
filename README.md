@@ -51,9 +51,9 @@ TODO
 <p>The following table shows the best accuracy scores of hybrid models after 100 epochs of training on combined image data and tabular data with One-Hot Encoded reduced columns or combined image data and tabular data with One-Hot Encoded full columns.  Reducing tabular columns seems not to have significant performance improvement.  It may make sense because deep learning can figure out what features are important and ignore what are less important after a sufficiently big number of epochs of training.  Or all the original clinic columns may all have some contributions to the classification.
 <br><img src="figures/full_vs_reduced.jpg" style="float: left; margin-right: 10px;"/>
   
-<ins>a</ins>
-<p>
-<br><img src="figures/a.jpg" style="float: left; margin-right: 10px;"/>
+<ins>With “Biopsed” Column vs. Without “Biopsed” Column</ins>
+<p>The following table shows the best accuracy scores of hybrid models after 100 epochs of training on combined image data and tabular data without “biopsy” columns or combined image data and tabular data with “biopsy” column.  Although we suspect the “biopsied” column may introduce bias to skin lesion classifications, the results do not show the missing “biopsied” column has significant influence on our hybrid validation accuracy scores.  A possible explanation is that other clinic tabular columns could make up for the missing influence of “biopsied” column and still contribute significantly to the classifications during deep learning.
+<br><img src="figures/with_vs_without_biopsed.jpg" style="float: left; margin-right: 10px;"/>
   
 <ins>a</ins>
 <p>
