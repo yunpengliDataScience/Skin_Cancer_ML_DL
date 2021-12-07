@@ -32,6 +32,9 @@
 <p>Six skin lesions are: Basal Cell Carcinoma (BCC), Squamous Cell Carcinoma (SCC), Actinic Keratosis (ACK), Seborrheic Keratosis (SEK), Melanoma (MEL), and Nevus (NEV). 
 <br><img src="figures/cancer_types.jpg" style="float: left; margin-right: 10px;"  />
 
+<ins>Skin Cancer Type Count</ins>
+<br><img src="figures/cancer_type_bar_chart.jpg" style="float: left; margin-right: 10px;"  />
+  
 ### Machine Learning
 TODO
 
