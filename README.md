@@ -23,7 +23,14 @@
 ## Project Highlights
 
 ### EDA
-TODO
+
+<ins>Tabular Data</ins>
+<p>The dataset consists of 2,298 samples of six different types of skin lesions. Each sample consists of a clinical image and up to 22 clinical features including the patient's age, skin lesion location, Fitzpatrick skin type, and skin lesion diameter. 
+<br><img src="figures/tabular.jpg" style="float: left; margin-right: 10px;"  />
+
+<ins>Image Data</ins>
+<p>Six skin lesions are: Basal Cell Carcinoma (BCC), Squamous Cell Carcinoma (SCC), Actinic Keratosis (ACK), Seborrheic Keratosis (SEK), Melanoma (MEL), and Nevus (NEV). 
+<br><img src="figures/cancer_types.jpg" style="float: left; margin-right: 10px;"  />
 
 ### Machine Learning
 TODO
