@@ -35,7 +35,7 @@
 <ins>Skin Cancer Type Count</ins>
 <br><img src="figures/cancer_type_bar_chart.jpg" style="float: left; margin-right: 10px;"/>
   
-<ins>Correlation Heat Map Count</ins>
+<ins>Correlation Heat Map</ins>
 <br><img src="figures/correlation_heatmap.jpg" style="float: left; margin-right: 10px;"/>
   
 ### Machine Learning
