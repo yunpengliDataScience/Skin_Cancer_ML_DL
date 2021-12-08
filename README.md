@@ -48,8 +48,8 @@
 <P>Feature Importance of using Decision Tree:
 <br><img src="figures/dt_feature_importance.jpg" style="float: left; margin-right: 10px;"/>
   
-<ins>Correlation Heat Map</ins>
-<br><img src="figures/correlation_heatmap.jpg" style="float: left; margin-right: 10px;"/>
+<ins>Accuracy Scores of Machine Learning Models</ins>
+<br><img src="figures/acc_scores_ml.jpg" style="float: left; margin-right: 10px;"/>
 
 ### Deep Learning
 <ins>Prebuilt CNN Model Experimentation and Selection</ins>
