@@ -42,10 +42,10 @@
 
 <ins>Feature Engineering</ins>
   
-<P>Feature Importance of using Random Forest:
+<P>Feature Importance of Using Random Forest:
 <br><img src="figures/rf_feature_importance.jpg" style="float: left; margin-right: 10px;"/>
   
-<P>Feature Importance of using Decision Tree:
+<P>Feature Importance of Using Decision Tree:
 <br><img src="figures/dt_feature_importance.jpg" style="float: left; margin-right: 10px;"/>
   
 <ins>Accuracy Scores of Machine Learning Models</ins>
