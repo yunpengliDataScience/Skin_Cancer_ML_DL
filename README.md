@@ -42,6 +42,9 @@
 
 <ins>Feature Engineering</ins>
   
+<P>Chi Squared Scores:
+<br><img src="figures/chi_squared_scores.jpg" style="float: left; margin-right: 10px;"/>
+  
 <P>Feature Importance of Using Random Forest:
 <br><img src="figures/rf_feature_importance.jpg" style="float: left; margin-right: 10px;"/>
   
