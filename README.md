@@ -20,6 +20,10 @@
 - Prove or disapprove combining clinic tabular data and skin lesion image data in deep learning can achieve better accuracy score.
 - Evaluate the accuracy and performance of various models in the end and find the best model for skin lesion classifications.
 
+
+## Project Major Processes
+<br><img src="figures/major_processes.jpg" style="float: left; margin-right: 10px;"/>
+
 ## Project Highlights
 
 ### EDA
