@@ -53,6 +53,9 @@
   
 <ins>Accuracy Scores of Machine Learning Models</ins>
 <br><img src="figures/acc_scores_ml.jpg" style="float: left; margin-right: 10px;"/>
+  
+<ins>Confusion Matrix of Random Forest Classifier</ins>
+<br><img src="figures/random_forest_cm.jpg" style="float: left; margin-right: 10px;"/>
 
 ### Deep Learning
 <ins>Prebuilt CNN Model Experimentation and Selection</ins>
