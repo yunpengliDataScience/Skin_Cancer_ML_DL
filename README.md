@@ -94,6 +94,7 @@
   
 <ins>Best Hybrid Models</ins>
 <p>We have applied upsampling to balance underrepresented skin lesion types in the training dataset and kept recording the best validation accuracy score of each hybrid model in each epoch iteration.  The state and parameters of the best performance model are persisted in a file so that models can be easily loaded instead of being retrieved by retraining.  The highest accuracy score is 0.846 of the hybrid model that utilizes DenseNet121.  The 2nd best score is 0.841 of the hybrid model that utilizes ResNet18.  Both scores are very close to each other, but due to the complexity of model architecture of DenseNet121, DenseNet121 takes longer time and high computing resources to be trained.  When the model state is saved to a file, loading a trained hybrid model utilizing DenseNet121 is not an issue.  The following table shows the best validation accuracy scores for each hybrid model.
+<p>Encoded Labels: (ACK: 0, BCC: 1, MEL: 2, NEV: 3, SCC 4, SEK: 5)
 <br><img src="figures/best_models.jpg" style="float: left; margin-right: 10px;"/>
 <p>The following figures illustrate the confusion matrix of each hybrid model.
 <br><img src="figures/cms.jpg" style="float: left; margin-right: 10px;"/>
