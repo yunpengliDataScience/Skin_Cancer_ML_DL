@@ -1,1 +1,1 @@
-This folder contains files for training hybrid models for column inferencing.
+This folder contains files for training models for column inferencing.
